@@ -1,0 +1,25 @@
+.yupi {
+    background:mediumseagreen
+}
+
+body
+{
+    background:goldenrod
+}
+
+tr {
+    font-weight: bolder;
+}
+p {
+    font-style:italic
+} 
+
+.mentos {
+    color:white;
+    background:hotpink;
+}
+
+.kopiko {
+    text-decoration:underline;
+    font-style:italic;
+}
