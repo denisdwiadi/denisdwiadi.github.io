@@ -1,0 +1,150 @@
+#videoBG {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position:fixed;
+    z-index: -1;
+}
+#videoBGnyala {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 20/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+    #videoBGnyala {
+        width:100%;
+        height: auto;
+    }
+}
+@media (min-aspect-ratio: 20/9) {
+    #videoBG {
+        width:auto;
+        height: 100%;
+    }
+    #videoBGnyala {
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display:none;
+    }
+    body {
+        background: url('poster.png');
+        background-size:contain;
+    }
+    table {
+        width:100%
+    }
+}
+@media (max-height: 562px) {
+    #videoBG {
+        display:none;
+    }
+    body {
+        background: url('poster.png');
+        background-size:contain;
+    }
+}
+
+/*file biodata*/
+p {
+    width: 75%;
+    text-align: justify;
+    margin-left: 12.5%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #d7d7d7;
+}
+
+#bunggeng {
+    background-color: #79715be7;
+    font-weight: 600;
+}
+#fotodenis {
+    border-radius: 10px;
+}
+#logo {
+    padding: 0;
+}
+#textnavbar {
+    padding:0;
+    margin-top: 0.35%;
+}
+#skolah {
+    text-align: center;
+    font-weight: bold;
+}
+#punggeng {
+    font-weight:600;
+}
+#untukparagraf {
+    background-color:#9cbec7 ;
+}
+
+.tombolnavmanual {
+    display: inline-block;
+    margin:0;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+}
+
+table,th,td {
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(38, 38, 53); 
+}
+th{
+    padding:15px;
+}
+td{
+    padding:10px;
+}
+
+/*home*/
+.judul-text {
+    position:absolute;
+    top: 50%;
+    text-align:center;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+.judul-text h2 {
+    color: #fff;
+    font-size: 80px;
+    padding:0;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*Photos*/
+#kopi{
+    padding: 30px 0px;
+}
+#kopi h1,h4 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row{
+    padding: 10px
+}
+
+.tombolnavmanual{
+    margin-top: 50px;
+}
