@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-<title>Profile Biodata Denis</title>
-<link rel="stylesheet" href="Latihan CSS.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="Latihan CSS copy.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Home</title>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand" href="#">TIKUSGANTENG</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" aria-current="page" href="Home.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menu
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="Biodata.html">Biodata</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="Photos.html">Photos</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(153, 44, 86, 0.918);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="muka.jpeg" alt="foto-brand" width="50" height="50"></a>
+      <span class="navbar-text" id="textnavbar">
+        <h3><span style="color:rgb(245, 8, 8);">The </span><span style="color: rgba(238, 238, 238, 0.76); background-color: #fcfcfc2a; padding-left: 4px; padding-right: 4px;">Nish</span></h3>
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="index.html"><span style="font-weight: 600;color: #b282b4">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Biodata baru.html"><span style="font-weight: 600; ">Biodata</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Photos.html"><span style="font-weight: 600;">Gallery</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <video id="videoBG" poster="poster.png" autoplay muted loop>
+    <source src="cloud.mp4" type="video/mp4">
+</video>
 
-
-    </body>
-    </html>
+  <div class="judul-text">
+    <h2>Welcome to <span>My ClubHouse</span></h2>
+    <a href="Biodata baru.html">
+      <button class="tombolnavmanual">Self Introduction</button>
+    </a>
+</div>
+</body>
+</html>
